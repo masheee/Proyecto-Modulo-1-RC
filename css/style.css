@@ -4,6 +4,10 @@
   object-position: 80% 30%;
 }
 
+.titulosKarrusel {
+  display: inline-block;
+}
+
 /* para dispositivos grandes */
 @media (width >= 992px) {
   .carruselPpalImg {
