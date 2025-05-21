@@ -1,7 +1,7 @@
 .carruselPpalImg {
   height: 350px;
   object-fit: cover;
-  object-position: 30% 80%;
+  object-position: 80% 30%;
 }
 
 /* para dispositivos grandes */
@@ -17,12 +17,5 @@
   .carruselPpalImg {
     height: 350px;
     object-position: 130% 30%;
-  }
-}
-
-@media (width <= 767px) {
-  .carruselPpalImg {
-    height: 350px;
-    object-position: 80% 30%;
   }
 }
