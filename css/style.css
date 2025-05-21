@@ -19,3 +19,10 @@
     object-position: 130% 30%;
   }
 }
+
+@media (width <= 767px) {
+  .carruselPpalImg {
+    height: 350px;
+    object-position: 80% 30%;
+  }
+}
