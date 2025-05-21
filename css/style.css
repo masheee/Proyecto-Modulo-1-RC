@@ -1,4 +1,21 @@
 .carruselPpalImg {
-  height: 450px;
+  height: 350px;
   object-fit: cover;
+  object-position: 30% 80%;
+}
+
+/* para dispositivos grandes */
+@media (width >= 992px) {
+  .carruselPpalImg {
+    height: 450px;
+    object-position: 100% 30%;
+  }
+}
+
+/* para dispositivos medianos tablets */
+@media (768px <= width <= 991px) {
+  .carruselPpalImg {
+    height: 350px;
+    object-position: 130% 30%;
+  }
 }
