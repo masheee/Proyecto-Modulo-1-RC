@@ -2,6 +2,8 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-variation-settings: "wght" 300, "ital" 1, "opsz" 16;
 }
 
 main{
@@ -12,4 +14,29 @@ main{
   font-family: 'Exo', sans-serif;
   font-weight: 300;
   font-style: italic;
+
+.carruselPpalImg {
+  height: 350px;
+  object-fit: cover;
+  object-position: 80% 30%;
+}
+
+.titulosKarrusel {
+  display: inline-block;
+}
+
+/* para dispositivos grandes */
+@media (width >= 992px) {
+  .carruselPpalImg {
+    height: 450px;
+    object-position: 100% 30%;
+  }
+}
+
+/* para dispositivos medianos tablets */
+@media (768px <= width <= 991px) {
+  .carruselPpalImg {
+    height: 350px;
+    object-position: 130% 30%;
+  }
 }
