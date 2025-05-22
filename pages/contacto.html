@@ -26,7 +26,7 @@
       rel="stylesheet"
     />
     <link rel="icon" type="image/png" sizes="34x34" href="./img/favicon1.png" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>
       ElectroHouse: Electrodomésticos, Tecnología y Artículos de Hogar
     </title>
@@ -183,7 +183,144 @@
           </div>
         </div>
       </section>
+            <section class="row justify-content-center my-3">
+        <div class="col-12 col-md-6 col-lg-6 my-3">
+          <form class="border p-4 rounded shadow">
+            <!-- Nombre -->
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="nombre"
+                name="nombre"
+                placeholder="Nombre"
+                required
+                minlength="2"
+                maxlength="50"
+              />
+            </div>
 
+            <!-- País -->
+            <div class="mb-3">
+              <label for="pais" class="form-label">País</label>
+              <select class="form-select" id="pais" name="pais" required>
+                <option value="" selected disabled>Seleccioná tu país</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Chile">Chile</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Costa Rica">Costa Rica</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="El Salvador">El Salvador</option>
+                <option value="Guatemala">Guatemala</option>
+                <option value="Honduras">Honduras</option>
+                <option value="México">México</option>
+                <option value="Nicaragua">Nicaragua</option>
+                <option value="Panamá">Panamá</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Perú">Perú</option>
+                <option value="República Dominicana">
+                  República Dominicana
+                </option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Venezuela">Venezuela</option>
+              </select>
+            </div>
+
+            <!-- Provincia o estado -->
+            <div class="mb-3">
+              <label for="provincia" class="form-label">Provincia</label>
+              <select
+                class="form-select"
+                id="provincia"
+                name="provincia"
+                required
+              >
+                <option value="" selected disabled>
+                  Seleccioná tu provincia
+                </option>
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="Catamarca">Catamarca</option>
+                <option value="Chaco">Chaco</option>
+                <option value="Chubut">Chubut</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Corrientes">Corrientes</option>
+                <option value="Entre Ríos">Entre Ríos</option>
+                <option value="Formosa">Formosa</option>
+                <option value="Jujuy">Jujuy</option>
+                <option value="La Pampa">La Pampa</option>
+                <option value="La Rioja">La Rioja</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="Misiones">Misiones</option>
+                <option value="Neuquén">Neuquén</option>
+                <option value="Río Negro">Río Negro</option>
+                <option value="Salta">Salta</option>
+                <option value="San Juan">San Juan</option>
+                <option value="San Luis">San Luis</option>
+                <option value="Santa Cruz">Santa Cruz</option>
+                <option value="Santa Fe">Santa Fe</option>
+                <option value="Santiago del Estero">Santiago del Estero</option>
+                <option value="Tierra del Fuego">Tierra del Fuego</option>
+                <option value="Tucumán">Tucumán</option>
+                <option value="Ciudad Autónoma de Buenos Aires">
+                  Ciudad Autónoma de Buenos Aires
+                </option>
+              </select>
+            </div>
+
+            <!-- Correo electrónico -->
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="tucorreo@ejemplo.com"
+                required
+                minlength="5"
+                maxlength="100"
+              />
+            </div>
+
+            <!-- Teléfono -->
+            <div class="mb-3">
+              <label for="telefono" class="form-label">Teléfono</label>
+              <input
+                type="tel"
+                class="form-control"
+                id="telefono"
+                name="telefono"
+                placeholder="+54 123-456-7890"
+                required
+                minlength="10"
+                maxlength="20"
+              />
+            </div>
+
+            <!-- Consulta -->
+            <div class="mb-3">
+              <label for="consulta" class="form-label">Consulta</label>
+              <textarea
+                class="form-control"
+                id="consulta"
+                name="consulta"
+                rows="2"
+                placeholder="Escribe tu consulta aquí..."
+                required
+                minlength="10"
+                maxlength="500"
+              ></textarea>
+            </div>
+
+            <!-- Botón -->
+            <button type="submit" class="btn btn-primary w-100">Enviar</button>
+          </form>
+        </div>
+      </section>
     </main>
     <footer class="bg-primary-subtle pt-5 py-3 text-center text-md-start">
       <div class="container">
