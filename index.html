@@ -1,19 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <title></title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Proyecto para aplicar conceptos del modulo 1 del curso"
+    />
+    <meta name="author" content="Grupo 3" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:opsz,wght,ital@8..72,300,1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Electrocasa</title>
+  </head>
+  <body>
     <header></header>
-    <main></main>
+    <main>
+      <section
+        id="carouselOfertas"
+        class="carousel slide mt-5"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselOfertas"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselOfertas"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselOfertas"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./img/muchos electrodomesticos2.jpg"
+              class="d-block w-100 carruselPpalImg"
+              alt="varios electrodomesticos"
+            />
+            <div class="carousel-caption d-none d-md-block titulosKarrusel">
+              <div class="titulosKarrusel bg-dark bg-opacity-50 rounded-3">
+                <h5 class="text-light titulosKarrusel display-4">
+                  <b>De todo para tu hogar</b>
+                </h5>
+                <p class="text-light display-5 mx-auto text-center">
+                  <b></b>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/muchos electrodomesticos.jpg"
+              class="d-block w-100 carruselPpalImg"
+              alt="electrodomesticos varios"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="titulosKarrusel bg-dark bg-opacity-50 rounded-3">
+                <h5 class="text-light titulosKarrusel display-4">
+                  <b>Línea Inoxidable</b>
+                </h5>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/muchos electrodomesticos4.jpg"
+              class="d-block w-100 carruselPpalImg"
+              alt="teclado de computadora con electrodomesticos"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <div class="titulosKarrusel bg-dark bg-opacity-50 rounded-3">
+                <h5 class="text-light titulosKarrusel display-4">
+                  <b>Comprá Online</b>
+                </h5>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselOfertas"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselOfertas"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+    </main>
     <footer></footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
