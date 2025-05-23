@@ -6,6 +6,7 @@ body{
   font-variation-settings: "wght" 300, "ital" 1, "opsz" 16;
 }
 
+/* karrusel */
 main{
     flex-grow: 1;
 }
@@ -14,6 +15,7 @@ main{
   font-family: 'Exo', sans-serif;
   font-weight: 300;
   font-style: italic;
+}
 
 .carruselPpalImg {
   height: 350px;
@@ -23,6 +25,26 @@ main{
 
 .titulosKarrusel {
   display: inline-block;
+}
+
+/* Grilla ppal */
+.colorEstiloGrilla {
+  font-family: "Open Sans", sans-serif;
+  font-variation-settings: "wght" 300, "ital" 1, "opsz" 16;
+  background-color: #5499c7;
+}
+
+.colorFondoGrilla {
+  background-color: #eaf2f8;
+  overflow: hidden;
+}
+.alturaImgGrilla {
+  height: 304px;
+  object-fit: cover;
+}
+.alineaBotonGrilla {
+  display: flex;
+  flex-direction: column;
 }
 
 /* para dispositivos grandes */
