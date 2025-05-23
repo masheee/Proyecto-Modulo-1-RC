@@ -1,9 +1,22 @@
-body {
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   font-family: "Open Sans", sans-serif;
   font-variation-settings: "wght" 300, "ital" 1, "opsz" 16;
 }
 
 /* karrusel */
+main{
+    flex-grow: 1;
+}
+
+.logo{
+  font-family: 'Exo', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
 .carruselPpalImg {
   height: 350px;
   object-fit: cover;
