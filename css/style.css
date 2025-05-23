@@ -19,6 +19,11 @@ body {
   background-color: #5499c7;
 }
 
+.colorFondoGrilla {
+  background-color: #eaf2f8;
+  overflow: hidden;
+}
+
 /* para dispositivos grandes */
 @media (width >= 992px) {
   .carruselPpalImg {
