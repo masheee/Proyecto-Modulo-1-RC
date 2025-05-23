@@ -13,6 +13,12 @@ body {
   display: inline-block;
 }
 
+.colorEstiloGrilla {
+  font-family: "Open Sans", sans-serif;
+  font-variation-settings: "wght" 300, "ital" 1, "opsz" 16;
+  background-color: #5499c7;
+}
+
 /* para dispositivos grandes */
 @media (width >= 992px) {
   .carruselPpalImg {
