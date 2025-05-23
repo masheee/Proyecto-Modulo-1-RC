@@ -3,6 +3,7 @@ body {
   font-variation-settings: "wght" 300, "ital" 1, "opsz" 16;
 }
 
+/* karrusel */
 .carruselPpalImg {
   height: 350px;
   object-fit: cover;
@@ -13,6 +14,7 @@ body {
   display: inline-block;
 }
 
+/* Grilla ppal */
 .colorEstiloGrilla {
   font-family: "Open Sans", sans-serif;
   font-variation-settings: "wght" 300, "ital" 1, "opsz" 16;
@@ -22,6 +24,14 @@ body {
 .colorFondoGrilla {
   background-color: #eaf2f8;
   overflow: hidden;
+}
+.alturaImgGrilla {
+  height: 304px;
+  object-fit: cover;
+}
+.alineaBotonGrilla {
+  display: flex;
+  flex-direction: column;
 }
 
 /* para dispositivos grandes */
