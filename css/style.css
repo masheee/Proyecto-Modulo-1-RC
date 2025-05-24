@@ -70,8 +70,14 @@ main {
 }
 
 /* Pagina detalle de cotegorias */
-.alturaVideo {
-  height: 400px;
+.alturaImGrillaCel {
+  height: 304px;
+  object-fit: cover;
+}
+
+.colorFondoGrillaCel {
+  background-color: #eaf2f8;
+  overflow: hidden;
 }
 
 /* para dispositivos grandes */
