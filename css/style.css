@@ -55,6 +55,9 @@ main {
     height: 450px;
     object-position: 100% 30%;
   }
+  .leyendaHelad {
+    font-size: x-large;
+  }
 }
 
 /* para dispositivos medianos tablets */
@@ -63,8 +66,12 @@ main {
     height: 350px;
     object-position: 130% 30%;
   }
-}
 
-/* para celulares */
-@media (width <= 767px) {
+  .leyendaHelad {
+    font-size: x-large;
+  }
+
+  /* para celulares */
+  @media (width <= 767px) {
+  }
 }
