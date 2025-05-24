@@ -48,12 +48,6 @@ main {
 }
 
 /* HELADERAS Y CELULARES */
-.padregrilla {
-  display: grid;
-  grid-template-columns: 70% 30%;
-}
-.hijoimagen {
-}
 
 /* para dispositivos grandes */
 @media (width >= 992px) {
@@ -69,4 +63,8 @@ main {
     height: 350px;
     object-position: 130% 30%;
   }
+}
+
+/* para celulares */
+@media (width <= 767px) {
 }
