@@ -90,8 +90,4 @@ main {
   .leyendaHelad {
     font-size: x-large;
   }
-
-  /* para celulares */
-  @media (width <= 767px) {
-  }
 }
