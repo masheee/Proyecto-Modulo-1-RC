@@ -53,6 +53,22 @@ main {
   background-color: #5499c7;
 }
 
+/* Publicidades */
+.publiPadre {
+  position: relative;
+}
+
+.publiHijo {
+  position: absolute;
+}
+
+.leyendaTarjeta {
+  width: fit-content;
+
+  top: 80%;
+  font-size: x-large;
+}
+
 /* para dispositivos grandes */
 @media (width >= 992px) {
   .carruselPpalImg {
