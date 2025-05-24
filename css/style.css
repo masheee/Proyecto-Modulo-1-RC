@@ -69,6 +69,11 @@ main {
   font-size: x-large;
 }
 
+/* Pagina detalle de cotegorias */
+.alturaVideo {
+  height: 400px;
+}
+
 /* para dispositivos grandes */
 @media (width >= 992px) {
   .carruselPpalImg {
