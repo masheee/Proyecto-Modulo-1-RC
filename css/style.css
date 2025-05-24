@@ -1,18 +1,18 @@
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   font-family: "Open Sans", sans-serif;
   font-variation-settings: "wght" 300, "ital" 1, "opsz" 16;
 }
 
 /* karrusel */
-main{
-    flex-grow: 1;
+main {
+  flex-grow: 1;
 }
 
-.logo{
-  font-family: 'Exo', sans-serif;
+.logo {
+  font-family: "Exo", sans-serif;
   font-weight: 300;
   font-style: italic;
 }
@@ -47,11 +47,36 @@ main{
   flex-direction: column;
 }
 
+/* HELADERAS Y CELULARES */
+
+.botonHela {
+  background-color: #5499c7;
+}
+
+/* Publicidades */
+.publiPadre {
+  position: relative;
+}
+
+.publiHijo {
+  position: absolute;
+}
+
+.leyendaTarjeta {
+  width: fit-content;
+
+  top: 80%;
+  font-size: x-large;
+}
+
 /* para dispositivos grandes */
 @media (width >= 992px) {
   .carruselPpalImg {
     height: 450px;
     object-position: 100% 30%;
+  }
+  .leyendaHelad {
+    font-size: x-large;
   }
 }
 
@@ -60,5 +85,9 @@ main{
   .carruselPpalImg {
     height: 350px;
     object-position: 130% 30%;
+  }
+
+  .leyendaHelad {
+    font-size: x-large;
   }
 }
