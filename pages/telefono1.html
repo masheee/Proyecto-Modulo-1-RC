@@ -104,64 +104,100 @@
       <section class="container">
         <div class="card p-3 border-0">
            <form>
-             <!--Cuotas-->
-             <div class="position-relative border rounded-4 p-4 mb-3 w-100">
-               <input class="form-check-input position-absolute top-0 end-0 m-3" type="radio" name="opcionPago" id="opcion1" checked>
-               <label class="form-check-label w-100" for="opcion1">
-                 <div class="d-flex flex-column">
-                   <h3 class="fs-5"><strong>En cuotas</strong></h3>
-                   <p class="fs-1 text-black">$ 451.481</p>
-                   <p class="text-success mb-3">Mismo precio en 9 cuotas de $ 50.164,56</p>
-                   <p class="mt-2"><strong class="text-success">Llega gratis mañana</strong></p>
-                   <a href="#" class="text-decoration-none mb-4">Más formas de entrega</a>
-                   <div class="mb-3">
-                    <label class="form-label fw-bold">Stock disponible</label>
-                    <div class="d-flex align-items-center">
-                      <label class="me-2">Cantidad:</label>
-                      <select class="form-select form-select-sm w-auto">
-                        <option value="1" selected>1 unidad</option>
-                        <option value="2">2 unidades</option>
-                        <option value="3">3 unidades</option>
-                        <option value="4">4 unidades</option>
-                      </select>
-                      <small class="text-muted ms-2">(+3 disponibles)</small>
-                     </div>
+            <!--opciones de compra-->
+            <button class="btn btn-outline-primary mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCompra" aria-expanded="false" aria-controls="collapseCompra">Ver opciones de compra</button>
+            <!--Cuotas-->
+            <div class="collapse" id="collapseCompra">
+              <div class="position-relative border rounded-4 p-4 mb-3 w-100">
+                <input class="form-check-input position-absolute top-0 end-0 m-3" type="radio" name="opcionPago" id="opcion1" checked>
+                <label class="form-check-label w-100" for="opcion1">
+                  <div class="d-flex flex-column">
+                    <h3 class="fs-5"><strong>En cuotas</strong></h3>
+                    <p class="fs-1 text-black">$ 451.481</p>
+                    <p class="text-success mb-3">Mismo precio en 9 cuotas de $ 50.164,56</p>
+                    <p class="mt-2"><strong class="text-success">Llega gratis mañana</strong></p>
+                    <a href="#" class="text-decoration-none mb-4">Más formas de entrega</a>
+                    <div class="mb-3">
+                      <label class="form-label fw-bold">Stock disponible</label>
+                      <div class="d-flex align-items-center">
+                        <label class="me-2">Cantidad:</label>
+                        <select class="form-select form-select-sm w-auto">
+                          <option value="1" selected>1 unidad</option>
+                          <option value="2">2 unidades</option>
+                          <option value="3">3 unidades</option>
+                          <option value="4">4 unidades</option>
+                        </select>
+                        <small class="text-muted ms-2">(+3 disponibles)</small>
+                      </div>
                     </div>
                   </div>
-               </label>
-               <a href="#" class="btn btn-primary btn-lg mt-3 me-3"><strong>Comprar ahora</strong></a>
-               <a href="#" class="btn bg-primary-subtle text-primary btn-lg mt-3"><strong>Agregar al carrito</strong></a>
-             </div>
-             <!--pagoUnico-->
-             <div class="position-relative border rounded-4 p-4 mb-3 w-100">
-               <input class="form-check-input position-absolute top-0 end-0 m-3" type="radio" name="opcionPago" id="opcion1" checked>
-               <label class="form-check-label w-100" for="opcion1">
-                 <div class="d-flex flex-column">
-                   <h3 class="fs-5"><strong>En 1 pago</strong></h3>
-                   <p class="fs-1 text-black">$ 361.185</p>
-                   <p class="text-secondary fs-6 mb-3">Precio sin impuestos nacionales: $ 298.500</p>
-                   <p class="mt-2"><strong class="text-success">Llega gratis mañana</strong></p>
-                   <a href="#" class="text-decoration-none mb-4">Más formas de entrega</a>
-                   <div class="mb-3">
-                    <label class="form-label fw-bold">Stock disponible</label>
-                    <div class="d-flex align-items-center">
-                      <label class="me-2">Cantidad:</label>
-                      <select class="form-select form-select-sm w-auto">
-                        <option value="1" selected>1 unidad</option>
-                        <option value="2">2 unidades</option>
-                        <option value="3">3 unidades</option>
-                        <option value="4">4 unidades</option>
-                      </select>
-                      <small class="text-muted ms-2">(+3 disponibles)</small>
-                     </div>
+                </label>
+                <a href="#" class="btn btn-primary btn-lg mt-3 me-3"><strong>Comprar ahora</strong></a>
+                <a href="#" class="btn bg-primary-subtle text-primary btn-lg mt-3"><strong>Agregar al carrito</strong></a>
+              </div>
+            </div>
+            <!--pagoUnico-->
+             <div class="collapse" id="collapseCompra">
+              <div class="position-relative border rounded-4 p-4 mb-3 w-100">
+                <input class="form-check-input position-absolute top-0 end-0 m-3" type="radio" name="opcionPago" id="opcion1" checked>
+                <label class="form-check-label w-100" for="opcion1">
+                  <div class="d-flex flex-column">
+                    <h3 class="fs-5"><strong>En 1 pago</strong></h3>
+                    <p class="fs-1 text-black">$ 361.185</p>
+                    <p class="text-secondary mb-3">Precio sin impuestos nacionales: $ 298.500</p>
+                    <p class="mt-2"><strong class="text-success">Llega gratis mañana</strong></p>
+                    <a href="#" class="text-decoration-none mb-4">Más formas de entrega</a>
+                    <div class="mb-3">
+                      <label class="form-label fw-bold">Stock disponible</label>
+                      <div class="d-flex align-items-center">
+                        <label class="me-2">Cantidad:</label>
+                        <select class="form-select form-select-sm w-auto">
+                          <option value="1" selected>1 unidad</option>
+                          <option value="2">2 unidades</option>
+                          <option value="3">3 unidades</option>
+                          <option value="4">4 unidades</option>
+                        </select>
+                        <small class="text-muted ms-2">(+3 disponibles)</small>
+                      </div>
                     </div>
                   </div>
-               </label>
-               <a href="#" class="btn btn-primary btn-lg mt-3 me-3"><strong>Comprar ahora</strong></a>
-               <a href="#" class="btn bg-primary-subtle text-primary btn-lg mt-3"><strong>Agregar al carrito</strong></a>
-             </div>
+                </label>
+                <a href="#" class="btn btn-primary btn-lg mt-3 me-3"><strong>Comprar ahora</strong></a>
+                <a href="#" class="btn bg-primary-subtle text-primary btn-lg mt-3"><strong>Agregar al carrito</strong></a>
+              </div>
+            </div>
            </form>
          </div>
+      </section>
+      <section class="container mt-3">
+        <h2 class="fs-1">Caracteristicas del producto</h2>
+        <ul class="fs-4">
+          <li>
+            <p><i class="bi bi-aspect-ratio fs-2"></i> _ Tamaño de la pantalla: <strong>6.7 "</strong> (16.6 cm x 7.22 cm x 6.9 mm)</p>
+          </li>
+          <li>
+            <p><i class="bi bi-cpu fs-2"></i> _ Memoria interna: <strong>128 GB</strong></p>
+          </li>
+          <li>
+            <p><i class="bi bi-phone-fill fs-2"></i> _ Cámara trasera principal: <strong>12 Mpx</strong></p>
+          </li>
+          <li>
+            <p><i class="bi bi-phone fs-2"></i> _ Cámara frontal principal: <strong>10 Mpx</strong></p>
+          </li>
+          <li>
+            <p><i class="bi bi-phone-vibrate fs-2"></i> _ Con NFC: <strong>Sí</strong></p>
+          </li>
+          <li>
+            <p><i class="bi bi-fingerprint fs-2"></i> _ Desbloqueo: <strong>Huella dactilar</strong></p>
+          </li>
+        </ul>
+      </section>
+      <hr class="mx-3 border border-secondary">
+      <section class="container-fluid">
+        <div class="border rounded-3 fs-2 bg-primary mb-3 px-3 py-3">
+          <h2 class="text-white">Descripción</h2>
+          <p class="px-5">Si buscás un dispositivo que te permita estar en contacto siempre, este teléfono Z Flip3 5G es una opción excelente. Vas a poder comunicarte de manera inmediata con amigas y amigos, o con las personas de tu familia. Y además, si estás trabajando, vas a alcanzar una mayor colaboración con tu equipo.</p>
+        </div>
       </section>
     </main>
     <footer class="bg-primary-subtle pt-5 py-3 text-center text-md-start">
