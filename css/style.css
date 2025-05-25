@@ -69,6 +69,33 @@ main {
   font-size: x-large;
 }
 
+/* Pagina detalle de cotegorias */
+.alturaImGrillaCel {
+  height: 350px;
+  object-fit: cover;
+}
+
+.fondoInf {
+  background-color: #eaf2f8;
+}
+
+.letraTitulo {
+  font-size: large;
+}
+
+.letraCuotas {
+  font-size: small;
+}
+
+.letraPrecio {
+  font-size: small;
+}
+
+/* .colorFondoGrillaCel {
+  background-color: #eaf2f8;
+  overflow: hidden;
+} */
+
 .botonerror {
   background-color: #5499c7;
 }
