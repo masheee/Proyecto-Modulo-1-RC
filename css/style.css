@@ -78,6 +78,10 @@ main {
   .leyendaHelad {
     font-size: x-large;
   }
+
+  .textodesc{
+    font-size: 30px;
+  }
 }
 
 /* para dispositivos medianos tablets */
@@ -89,5 +93,9 @@ main {
 
   .leyendaHelad {
     font-size: x-large;
+  }
+
+  .textodesc{
+    font-size: 30%;
   }
 }
