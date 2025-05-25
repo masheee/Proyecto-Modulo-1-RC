@@ -1,8 +1,7 @@
 # ElectroHouse
 ## ElectroHouse | Electrodomésticos, Tecnología y Artículos de Hogar. 
----
-Sitio web diseñado para facilitar la navegación y brindar al usuario una forma clara de encontrar lo que necesita.
-ElectroHouse combina diseño funcional con una presentación visual atractiva, pensada para todos los dispositivos.
+
+Sitio web diseñado para facilitar la navegación, brindar al usuario una forma clara de encontrar lo que necesita. ElectroHouse combina diseño funcional con una presentación visual atractiva, pensada para todos los dispositivos.
 
 # Demo del proyecto.
 Mira la demo del proyecto. 👉 [Aqui]()
@@ -20,8 +19,8 @@ Mira la demo del proyecto. 👉 [Aqui]()
 - [Maximiliano Gómez Tolrá](https://github.com/masheee)
 - [José Ledesma Padilla](https://github.com/ledesmapadilla)
 - [Maximiliano Ordoñez](https://github.com/Maxii34)
-- [Sofia Cisterna]()
-- [Joaquín Albornoz Bresla]()
+- [Sofia Cisterna](https://github.com/AnaSofia62)
+- [Joaquín Albornoz Bresla](https://github.com/JQNPro10)
 
 
 
