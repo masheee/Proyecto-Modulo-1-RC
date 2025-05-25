@@ -91,6 +91,12 @@ main {
   font-size: small;
 }
 
+/* Pagina heladeras */
+.alturaHela {
+  height: 500px;
+  object-fit: cover;
+}
+
 /* .colorFondoGrillaCel {
   background-color: #eaf2f8;
   overflow: hidden;
