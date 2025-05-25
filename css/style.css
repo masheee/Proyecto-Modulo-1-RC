@@ -71,7 +71,7 @@ main {
 
 /* Pagina detalle de cotegorias */
 .alturaImGrillaCel {
-  height: 200px;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -79,11 +79,15 @@ main {
   background-color: #eaf2f8;
 }
 
-.latraCuotas {
-  font-size: x-small;
+.letraTitulo {
+  font-size: large;
 }
 
-.latraPrecio {
+.letraCuotas {
+  font-size: small;
+}
+
+.letraPrecio {
   font-size: small;
 }
 
