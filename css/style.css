@@ -71,14 +71,26 @@ main {
 
 /* Pagina detalle de cotegorias */
 .alturaImGrillaCel {
-  height: 304px;
+  height: 200px;
   object-fit: cover;
 }
 
-.colorFondoGrillaCel {
+.fondoInf {
+  background-color: #eaf2f8;
+}
+
+.latraCuotas {
+  font-size: x-small;
+}
+
+.latraPrecio {
+  font-size: small;
+}
+
+/* .colorFondoGrillaCel {
   background-color: #eaf2f8;
   overflow: hidden;
-}
+} */
 
 /* para dispositivos grandes */
 @media (width >= 992px) {
