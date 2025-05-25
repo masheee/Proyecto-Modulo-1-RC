@@ -96,6 +96,10 @@ main {
   overflow: hidden;
 } */
 
+.botonerror {
+  background-color: #5499c7;
+}
+
 /* para dispositivos grandes */
 @media (width >= 992px) {
   .carruselPpalImg {
