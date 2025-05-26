@@ -6,6 +6,33 @@ body {
   font-variation-settings: "wght" 300, "ital" 1, "opsz" 16;
 }
 
+/*navbar*/
+.imgnav{
+  width: 65px;
+  height: 45px;
+}
+
+.carrito{
+  font-size: 1.8rem;
+  color: #000;
+}
+
+/*footer*/
+.imgfoot{
+  width: 130px;
+  height: 100px;
+}
+
+.iconoMC{
+  width: 75px;
+  height: 60px;
+}
+
+.iconoVisa{
+  width: 65px;
+  height: 55px;
+}
+
 /* karrusel */
 main {
   flex-grow: 1;
