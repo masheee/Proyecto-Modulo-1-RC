@@ -6,6 +6,62 @@ body {
   font-variation-settings: "wght" 300, "ital" 1, "opsz" 16;
 }
 
+/*navbar*/
+.imgnav{
+  width: 65px;
+  height: 45px;
+}
+
+.carrito{
+  font-size: 1.8rem;
+  color: #000;
+}
+
+/*footer*/
+.imgfoot{
+  width: 130px;
+  height: 100px;
+}
+
+.iconoMC{
+  width: 75px;
+  height: 60px;
+}
+
+.iconoVisa{
+  width: 65px;
+  height: 55px;
+}
+
+/*productos1*/
+.tamañocard{
+  max-width: 1300px;
+  width: 100%;
+}
+
+/*nosotros*/
+.nosotros{
+  width: 18rem;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+.imgnosotros{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 5px solid white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.imgnosotros:hover{
+  transform: scale(1.1);
+}
+
 /* karrusel */
 main {
   flex-grow: 1;
@@ -95,6 +151,12 @@ main {
   font-size: small;
 }
 
+/* Pagina heladeras */
+.alturaHela {
+  height: 500px;
+  object-fit: cover;
+}
+
 /* .colorFondoGrillaCel {
   background-color: #eaf2f8;
   overflow: hidden;
@@ -113,6 +175,10 @@ main {
   .leyendaHelad {
     font-size: x-large;
   }
+
+  .textodesc{
+    font-size: 30px;
+  }
 }
 
 /* para dispositivos medianos tablets */
@@ -124,5 +190,9 @@ main {
 
   .leyendaHelad {
     font-size: x-large;
+  }
+
+  .textodesc{
+    font-size: 30%;
   }
 }
