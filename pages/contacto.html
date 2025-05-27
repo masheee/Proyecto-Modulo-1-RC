@@ -25,7 +25,7 @@
       href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,300&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/png" sizes="34x34" href="./img/favicon1.png" />
+    <link rel="icon" type="image/png" sizes="34x34" href="../img/favicon1.png" />
     <link rel="stylesheet" href="../css/style.css" />
     <title>
       ElectroHouse: Electrodomésticos, Tecnología y Artículos de Hogar
@@ -45,16 +45,6 @@
               class="img-fluid me-2 imgnav"
             />
             <strong class="mt-1 ms-2 fs-3 logo">ElectroHouse</strong>
-          </a>
-          <!--Carrito en dispositivos pequeños-->
-          <a href="#" class="d-lg-none ms-1 me-4 position-relative">
-            <i class="bi bi-cart3 carrito"></i>
-            <span
-              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-            >
-              3
-              <span class="visually-hidden">productos en el carrito</span>
-            </span>
           </a>
           <button
             class="navbar-toggler"
@@ -88,11 +78,11 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link me-5" href="#">Novedades</a>
+                <a class="nav-link me-5" href="../pages/error404.html">Novedades</a>
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link me-4 dropdown-toggle"
+                  class="nav-link me-4 pe-5 dropdown-toggle"
                   href="#"
                   id="menudropdown"
                   role="button"
@@ -102,7 +92,7 @@
                 >
                 <ul class="dropdown-menu" aria-labelledby="menudropdown">
                   <li>
-                    <a class="dropdown-item" href="#"
+                    <a class="dropdown-item" href="../pages/login.html"
                       ><i class="bi bi-caret-right"></i> Login</a
                     >
                   </li>
@@ -112,7 +102,7 @@
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./contacto.html"
+                    <a class="dropdown-item" href="../pages/contacto.html"
                       ><i class="bi bi-caret-right"></i> Contacto</a
                     >
                   </li>
@@ -120,16 +110,6 @@
               </li>
             </ul>
           </div>
-          <!--Carrito en pantallas large-->
-          <a href="#" class="ms-4 d-none d-lg-block me-4 position-relative">
-            <i class="bi bi-cart3 carrito"></i>
-            <span
-              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-            >
-              3
-              <span class="visually-hidden">productos en el carrito</span>
-            </span>
-          </a>
         </div>
       </nav>
     </header>
@@ -318,7 +298,7 @@
             </div>
 
             <!-- Botón -->
-            <button type="submit" class="btn btn-primary w-100">Enviar</button>
+            <button type="submit" class="btn btn-primary btn-error botonerror text-light w-100">Enviar</button>
           </form>
         </div>
       </section>
