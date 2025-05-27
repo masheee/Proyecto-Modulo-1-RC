@@ -80,6 +80,10 @@ main {
   background-color: #5499c7;
 }
 
+.alturaVideo {
+  height: 400px;
+}
+
 /* Publicidades */
 .publiPadre {
   position: relative;
