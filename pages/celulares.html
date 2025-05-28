@@ -108,9 +108,14 @@
                 >
                 <ul class="dropdown-menu" aria-labelledby="menudropdown">
                   <li>
-                    <a class="dropdown-item" href="../pages/login.html"
-                      ><i class="bi bi-caret-right"></i> Login</a
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#miModal"
                     >
+                      <i class="bi bi-caret-right"></i> Login
+                    </a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="../pages/registro.html"
@@ -327,13 +332,13 @@
               </a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="../pages/heladeras.html">1</a>
+              <a class="page-link" href="../index.html">1</a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="../pages/celulares.html">2</a>
+              <a class="page-link" href="../pages/heladeras.html">2</a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="../index.html">3</a>
+              <a class="page-link" href="../pages/celulares.html">3</a>
             </li>
             <li class="page-item">
               <a class="page-link" href="../index.html" aria-label="Next">
@@ -343,6 +348,112 @@
           </ul>
         </nav>
       </div>
+      <section>
+        <!-- Modal Login -->
+        <div
+          class="modal fade"
+          id="miModal"
+          tabindex="-1"
+          aria-labelledby="modalLoginLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Encabezado del modal -->
+              <div class="modal-header">
+                <h5 class="modal-title" id="modalLoginLabel">Iniciar sesión</h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Cerrar"
+                ></button>
+              </div>
+
+              <!-- Cuerpo del modal -->
+              <div class="modal-body">
+                <div class="card shadow p-4 rounded-4">
+                  <form>
+                    <!-- Email -->
+                    <div class="mb-3">
+                      <label for="email" class="form-label"
+                        >Correo electrónico</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        name="email"
+                        placeholder="correo@mail.com"
+                        maxlength="50"
+                        pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+                        title="Ingresa un correo válido. Ej: ejemplo@mail.com"
+                        autocomplete="email"
+                        required
+                      />
+                    </div>
+
+                    <!-- Contraseña -->
+                    <div class="mb-3">
+                      <label for="password" class="form-label"
+                        >Contraseña</label
+                      >
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="password"
+                        name="password"
+                        placeholder="Contraseña"
+                        minlength="8"
+                        maxlength="20"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$"
+                        title="Debe tener al menos 8 caracteres, una letra, un número y un símbolo"
+                        autocomplete="current-password"
+                        required
+                      />
+                    </div>
+
+                    <!-- Link de recuperación -->
+                    <div class="mb-3 text-end">
+                      <a
+                        href="./pages/error404.html"
+                        class="text-decoration-none"
+                      >
+                        ¿Olvidaste tu contraseña?
+                      </a>
+                    </div>
+
+                    <!-- Botón de inicio de sesión -->
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-facebook my-1">
+                        Iniciar sesión
+                      </button>
+                        <button type="submit" class="btn btn-facebook my-1">
+                        Iniciar sesión con Google <i class="bi bi-google"></i>
+                      </button>
+                        <button type="submit" class="btn btn-facebook my-1">
+                        Iniciar sesión con Facebook
+                        <i class="bi bi-facebook"></i>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <!-- Pie del modal-->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Cancelar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="bg-primary-subtle pt-5 py-3 text-center text-md-start">
