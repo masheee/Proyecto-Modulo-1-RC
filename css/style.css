@@ -196,3 +196,49 @@ main {
     font-size: 30%;
   }
 }
+
+
+/*texto-subrarrado*/
+.texto-subrarrado {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.texto-subrarrado::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    height: 3px;
+    width: 0;
+    background-color: #1ea5a5;
+    transition: width 600ms linear;
+}
+
+.texto-subrarrado:hover::after {
+    width: 100%;
+}
+.texto-subrarrado.active::after {
+    width: 100%;
+}
+
+
+/* Botón de Facebook */
+.btn-facebook {
+  background-color: #1877f2; /* Azul Facebook */
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-facebook:hover {
+  background-color: #145dbf;
+}
+
+.div-efect{
+    transition: .3s;
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
